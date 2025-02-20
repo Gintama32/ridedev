@@ -1,0 +1,27 @@
+[
+    {    
+    "name":"User 1",
+    "Destination": "St.Louis",
+    "Date" : "02/19/2025"
+    },
+    {    
+        "name":"User 2",
+        "Destination": "St.Louis",
+        "Date" : "02/19/2025"
+    },
+    {    
+        "name":"User 3",
+    "Destination": "St.Louis",
+    "Date" : "02/19/2025"
+    },
+    {    
+        "name":"User 4",
+        "Destination": "St.Louis",
+        "Date" : "02/19/2025"
+        },
+        {    
+            "name":"User 5",
+            "Destination": "St.Louis",
+            "Date" : "02/19/2025"
+            }
+]
