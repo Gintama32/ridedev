@@ -1,0 +1,39 @@
+.circular-image {
+    width: 100px;  /* Adjust as needed */
+    height: 100px; /* Should be equal to width */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image scales properly inside the circle */
+    margin:0;
+  }
+
+.navbar {
+    position: fixed; /* Keeps it at the top across pages */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensures it's above the background */
+    background: rgba(0, 0, 0, 0.4); /* Optional: Semi-transparent */
+    color: white;
+    padding: 1rem;
+  }
+a{
+    text-decoration: none;
+}
+.dropdown ul{
+  list-style: none;
+  position:absolute;
+  display: none;
+  background-color: rgba(35, 88, 131, 0.377);
+  box-shadow: 5px 10px 10px rgb(170, 119, 119);
+
+}
+.dropdown{
+  display:inline-block;
+}
+.dropdown li{
+  padding: 5px;
+  cursor: pointer;
+}
+.dropdown:hover ul{
+  display:block;
+}
