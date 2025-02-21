@@ -13,7 +13,14 @@ function Navbar() {
     <Link to='/signin' className="mr3">
       <h2 className="ma0 white grow">Sign-Out</h2>
     </Link>
+    <div className="dropdown">
     <img src={user} alt="user" className="circular-image pointer grow"/>
+    <ul>
+    <li>Gintama</li>
+    <li>Settings</li>
+    <li>My Rides</li>
+    </ul>
+    </div>
   </div>
 
 

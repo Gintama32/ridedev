@@ -19,3 +19,21 @@
 a{
     text-decoration: none;
 }
+.dropdown ul{
+  list-style: none;
+  position:absolute;
+  display: none;
+  background-color: rgba(35, 88, 131, 0.377);
+  box-shadow: 5px 10px 10px rgb(170, 119, 119);
+
+}
+.dropdown{
+  display:inline-block;
+}
+.dropdown li{
+  padding: 5px;
+  cursor: pointer;
+}
+.dropdown:hover ul{
+  display:block;
+}
