@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function Form() {
   return (
     <div>
-    <article className="br3 shadow-5 ba b--white -10 mv4 w-100 w-50-m w-25-l mw6 center">
+    <article className="br3 shadow-3 ba b--black-40 bw1 mv4 w-100 w-50-m w-25-l mw6 center">
       <main className="pa4 green-80">
         <div className="measure">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">

@@ -12,7 +12,7 @@ function Navbar() {
   </Link>
   <div className="flex items-center">
     <Link to='/signin' className="mr3">
-      <h2 className="ma0 white grow">Sign-Out</h2>
+      <h2 className="ma0 gold grow">Sign-Out</h2>
     </Link>
     <div className="dropdown">
     <img src={user} alt="user" className="circular-image pointer grow"/>

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure body takes full viewport height */
+  width: 100%; /* Ensure body takes full width */
+}
+.background {
+margin: 0;
+padding: 0;
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+           url('../../assets/bg.png');
+background-size: cover;
+background-position: center;
+height: 100vh; /* Full viewport height */
+width: 100%; /* Full width of the viewport (avoids scrollbar issue) */
+position: absolute; /* Ensures the background is positioned relative to the body */
+top: 0;
+left: 0;
+}
+
+a{
+text-decoration: none;
+color:black;
+}
+.form{
+display:flex;
+align-items: center;
+height:100vh;
+justify-content: center;
+width:100%;
+}
